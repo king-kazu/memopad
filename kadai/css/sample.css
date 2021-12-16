@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 36px;
+    width:100%;
+    font-family: 'Architects Daughter';
+}
+header{
+    background-color: #fff;
+    text-align: center;
+}
+h2{
+    margin: 20px 0 0 30px;
+}
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+#list{
+    max-width: 350px;
+    max-height: 350px;
+    margin: auto;
+}
+button {
+    background-color: beige;
+}
+.sample_box12 p {
+     margin: 0; 
+     padding: 0;
+     font-size: 0.9em;
+}
+.sample_box12_subtitle {
+     text-align: center;
+     font-size: 0.7em!important;
+     margin-bottom: 1em!important;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    margin: 30px 0;
+}
+p{
+    text-align: center;
+}
+ul{
+    padding: 0;
+    display:table;
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    display:table-cell; 
+    cursor: pointer;
+    color:#fcb353;
+}
+textarea{
+  margin: 10px 3%;
+  width: 95%;
+  height: 100px;
+  font-size:80%;
+  background-color:azure;
+}
+#key{
+    margin:0 3%;
+    padding: 10px;
+    width: 95%;
+    font-size:80%;
+    background-color: beige;
+}
+table{
+    margin: 20px 3%;
+    width:96%;  
+}
+/* 付箋のvalue部分 */
+tr {
+    max-width: 250px;
+    height: 150px;
+    padding: 15px;
+    margin: 2em auto;
+    background: #fbc7f5;
+    color: #000;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);transform:rotate(3deg);
+    word-break: break-all;
+    flex-wrap: nowrap;
+}
+/* 付箋のkey部分 */
+th{ 
+    text-align: center;
+    margin-top: 10px!important;
+    width:30%;
+    font-size:20px;
+    background-color:yellow;
+}
+td{
+    font-size:18px;
+
+}
